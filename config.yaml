@@ -1,0 +1,48 @@
+exploration_iterations: 5
+competition_rounds: 3
+max_tokens: 4096
+
+domains:
+  - consciousness
+  - ethics
+  - epistemology
+  - metaphysics
+  - aesthetics
+
+prompts:
+  consciousness:
+    - "Explore the nature of subjective experience and its relationship to physical reality."
+    - "Consider the possibility of artificial consciousness and its implications for our understanding of mind."
+  ethics:
+    - "Examine the concept of moral responsibility in a deterministic universe."
+    - "Explore the ethical implications of advanced AI systems in decision-making roles."
+  epistemology:
+    - "Investigate the limits of human knowledge and the role of uncertainty in our understanding of reality."
+    - "Consider the relationship between language, thought, and our ability to comprehend complex ideas."
+  metaphysics:
+    - "Explore the nature of time and its relationship to consciousness and free will."
+    - "Examine the concept of identity and its persistence through change."
+  aesthetics:
+    - "Investigate the nature of beauty and its relationship to truth and goodness."
+    - "Consider the role of art in shaping our understanding of reality and ourselves."
+
+reflection_prompts:
+  - "Reflect on the coherence and depth of your response. How well did you explore the concept?"
+  - "Consider the limitations of your response. What aspects of the topic did you not address?"
+  - "Analyze the assumptions underlying your response. How might these affect your exploration of the topic?"
+  - "Evaluate the originality of your ideas. How does your response contribute to the broader discourse on this topic?"
+
+llm_providers:
+  - type: openai
+    api_key: key
+    model: chatgpt-4o-latest
+  - type: anthropic
+    api_key: key
+    model: claude-3-5-sonnet-20240620
+  - type: huggingface
+    model_name: NousResearch/Hermes-3-Llama-3.1-8B
+
+llm_names:
+  - OpenAI
+  - Anthropic
+  - HuggingFace
