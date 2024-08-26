@@ -55,6 +55,10 @@ This tool is not for benchmarking in the traditional sense. Instead, use it to:
 
 This project intentionally avoids quantitative comparisons between LLMs. Any apparent "performance" differences should be viewed as subjective observations rather than objective measures. The true value lies in the unique perspectives and ideas generated through this exploration.
 
+## Personal Opinion and Critique of Modern LLM Benchmarking
+
+For an in-depth discussion on the philosophical issues with current LLM benchmarking practices and the motivation behind LatentExplorer, please read [RANT.md](RANT.md)
+
 ## Contributing
 
 We welcome contributions that align with our philosophy of embracing subjectivity and avoiding false quantification. Please feel free to suggest new philosophical prompts, scenarios, or analysis approaches that further our goal of exploring the unquantifiable aspects of artificial intelligence.
